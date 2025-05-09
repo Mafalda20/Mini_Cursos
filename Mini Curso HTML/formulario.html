@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aqui pode-se escrever uma breve descrição do site">  
+    <meta name="Keywords" content="programacao,html">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario Aqui</h1>
+
+    <form action="arquivo.php" method="get">
+
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite o seu nome aqui" required>
+
+        <hr>
+        <label for="campo_codigo">Codigo:</label>
+        <input id="campo_codigo" type="password" placeholder="Digite o seu código aqui" required>
+
+        <hr>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite o seu email aqui" required>
+
+        <hr>
+        <input type="Submit" value="Enviar Formulário">
+
+        <hr>
+        <h2>Animal de Estimação:</h2>
+        <input type="radio" name="animal" value="Cachorro" id="dog">
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+        <input type="radio" name="animal1" value="Gato" id="cat">
+        <label for="cat">Gato</label>
+
+        <hr>
+        <h2>Animal de Estimação:</h2>
+        <input type="checkbox" name="animal2" value="Cachorro" id="a">
+        <label for="a">Cachorro</label>
+
+        <br><br>
+        <input type="checkbox" name="animal3" value="Gato" id="b">
+        <label for="b">Gato</label>
+
+        <hr>
+        <h2>Escolha uma cor:</h2>
+        <select>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="azul">Azul</option>
+        </select>
+
+        <hr>
+        <h2>Digite a sua mensagem:</h2>
+        <textarea rows="20" cols="55">Um texto de exemplo.</textarea>
+
+        <hr>
+        <button>Clique aqui</button>
+
+    </form>
+
+    <hr>
+    <a href="index4.html">Volltar para a Página Inicial</a>
+
+</body>
+</html>
